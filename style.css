@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding:25px;
+   
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display:inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display:inline-block;
+    margin-right: 23px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+p{
+    color:black;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col img{
+    max-width: 100%;
+    padding:50px 0;
+
+}
+.col h1{
+    font-size:50px;
+    color:red;
+    margin:30px 0px;
+}
+
+.btn{
+    display:inline-block;
+    background: darkolivegreen;
+    color:white;
+    padding:8px 30px;
+    margin:30px 2px;
+    border-radius:30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: gray;
+}
+/*below i have set container given equal space from right and left. here you have to use auto margin*/
+.container{
+   
+    max-width: 1350px;
+    margin:auto;
+    padding-left: 22px;
+    padding-right: 11px;
+}
+.header{
+    background:radial-gradient(#d47272, #a3a8d6);
+}
+
+.header .row{
+    margin-top:170px;
+}
+.cart{
+    background-color: #d47272;
+}
+.categories{
+    margin:80px 0px;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+       width:100%;
+}
+.small-continer{
+    max-width:1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+h2{
+    font-size:60px;
+    text-decoration: underline;
+    color: #d47272;
+}
+h3{
+    font-size:30px;
+    color:red;
+    margin:30px 0px;
+}
